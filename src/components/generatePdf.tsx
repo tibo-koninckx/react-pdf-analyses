@@ -17,7 +17,9 @@ export function GeneratePdf() {
             borderStyle: "solid",
             borderWidth: 1,
             borderRightWidth: 0,
-            borderBottomWidth: 0
+            borderBottomWidth: 0,
+            marginLeft: "5%",
+            marginRight: "5%"
         },
         tableRow: {
             flexDirection: "row"
