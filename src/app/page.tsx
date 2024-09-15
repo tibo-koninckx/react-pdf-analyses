@@ -7,7 +7,7 @@ export default function Home() {
   return <>
     <Flex align="center" vertical>
       <Typography.Title>Generate pdf</Typography.Title>
-      <PDFViewer>
+      <PDFViewer width="20%" height={500} showToolbar={true}>
         <GeneratePdf />
       </PDFViewer>
     </Flex>
