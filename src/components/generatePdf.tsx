@@ -9,6 +9,7 @@ export function GeneratePdf() {
             fontSize: 24,
             fontWeight: "bold",
             textAlign: "center",
+            padding: 10
         },
         table: {
             display: "flex",
