@@ -1,3 +1,3 @@
-# Java Quotes 
+# React PDF analyses
 ## License
-This project is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International Public License. This means that others may share your work with attribution, but may not modify it. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. The MIT License is a permissive open-source software license originating from the Massachusetts Institute of Technology (MIT). See the [LICENSE](LICENSE) file for more information.
