@@ -53,7 +53,7 @@ export function GeneratePdf() {
         {col1: "Data 1", col2: "Data 2", col3: "Data 3", col4: "Data 4", col5: "Data 5"},
         {col1: "Data 6", col2: "Data 7", col3: "Data 8", col4: "Data 9", col5: "Data 10"},
         {col1: "Data 11", col2: "Data 12", col3: "Data 13", col4: "Data 14", col5: "Data 15"},
-        {col1: "Data 16", col2: "Data 17", col3: "Data 18", col4: "Data1 9", col5: "Data 20"}
+        {col1: "Data 16", col2: "Data 17", col3: "Data 18", col4: "Data19", col5: "Data 20"}
         // Add more rows as needed
     ];
     return <>
