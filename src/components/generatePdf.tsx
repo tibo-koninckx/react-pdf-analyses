@@ -10,7 +10,7 @@ export function GeneratePdf() {
       fontWeight: "bold",
     },
     table: {
-      display: "table",
+      display: "flex",
       width: "auto",
       borderStyle: "solid",
       borderWidth: 1,
@@ -18,7 +18,6 @@ export function GeneratePdf() {
       borderBottomWidth: 0
     },
     tableRow: {
-      margin: "auto",
       flexDirection: "row"
     },
     tableColHeader: {
@@ -27,7 +26,7 @@ export function GeneratePdf() {
       borderWidth: 1,
       borderLeftWidth: 0,
       borderTopWidth: 0,
-      backgroundColor: '#f0f0f0'
+      backgroundColor: '#f2f'
     },
     tableCol: {
       width: "20%",
@@ -51,6 +50,8 @@ export function GeneratePdf() {
   const data = [
     { col1: "Data 1", col2: "Data 2", col3: "Data 3", col4: "Data 4", col5: "Data 5" },
     { col1: "Data 6", col2: "Data 7", col3: "Data 8", col4: "Data 9", col5: "Data 10" },
+    { col1: "Data 11", col2: "Data 12", col3: "Data 13", col4: "Data 14", col5: "Data 15" },
+    { col1: "Data 16", col2: "Data 17", col3: "Data 18", col4: "Data1 9", col5: "Data 20" }
     // Add more rows as needed
   ];
   return <>
