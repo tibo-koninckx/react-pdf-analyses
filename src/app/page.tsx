@@ -1,6 +1,6 @@
 "use client"
 import {Flex, Typography} from "antd";
-import {PDFViewer} from "@react-pdf/renderer";
+import {PDFDownloadLink, PDFViewer} from "@react-pdf/renderer";
 import {GeneratePdf} from "@/components/generatePdf";
 
 export default function Home() {
@@ -10,6 +10,8 @@ export default function Home() {
       <PDFViewer width="20%" height={500} showToolbar={true}>
         <GeneratePdf />
       </PDFViewer>
+        <PDFDownloadLink document={<GeneratePdf />} fileName="Anlyses data">
+          {({blob, url, loading, error}) => (loading ? "Loading document..." : "Download now!")}</PDFDownloadLink>
     </Flex>
   </>
 }
